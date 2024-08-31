@@ -1,0 +1,29 @@
+name: kitchin
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.1
+
+assets:
+  - .env
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.3.0
+  firebase_auth: ^5.2.0
+  cloud_firestore: ^5.3.0
+  google_generative_ai: ^0.4.5
+  card_swiper: ^3.0.1
+  mobile_scanner: ^5.2.1
+  flutter_dotenv: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
