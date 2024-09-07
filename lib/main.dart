@@ -21,7 +21,7 @@ Future<void> main() async {
   );
 
   // Load .env file
-  await dotenv.load(fileName: ".env");
+  await dotenv.load(fileName: "lib/.env");
 
   // Run the app
   runApp(const MainApp());
